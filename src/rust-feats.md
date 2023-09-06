@@ -149,10 +149,27 @@ layout: intro
 
 I think it's time to show you the Rust code.
 
+Let's code a simple program:
+
+1. create a enmu type `Fruits`;
+2. log fruit name by inputing argument;
+3. use `switch` / `match` keyword by default;
+
 <!--
     Part 3.4: Rust is safe and friendly
 
-    example: enum, Option, panic, rust-analyzer...
+    Rust:
+
+    1. run `cargo new hello-rust && cd $_`
+    2. run `vi ./src/main.rs` to coding
+
+    TypeScript:
+
+    1. run `mkdir bye-ts && cd $_`
+    2. run `npm init -y` init npm package
+    3. run `npm install -D typescript ts-node` install dev dependencies
+    4. run `npx tsc --init` generate tsconfig.json file
+    5. run `vi index.ts` to coding 
 -->
 
 ---
