@@ -4,7 +4,7 @@ layout: intro
 
 # ✋ &nbsp;But before start...
 
-Let's see some application's, build on Rust, advertises 
+Let's see some star project building on Rust.
 
 <!--
     Feel the Rust benefits, mainly the fast

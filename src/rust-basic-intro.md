@@ -2,9 +2,13 @@
 
 <br />
 
+<v-click>
+
 <img src="/img/rust-vs-c.jpeg" width=340 style="margin: 0 auto 34px;" />
 
 > 🔗 &nbsp;image from: https://twitter.com/ThePrimeagen/status/1690527161587728384/photo/1
+
+</v-click>
 
 <!--
     Part 1: What's the Rust
@@ -46,11 +50,15 @@ As I'm a archaeologist..., let's talk about history!
 
 <br />
 
+<v-clicks>
+
 * Rust is designed by <span style="color: orange;">Graydon Hoare</span> who worked for Mozilla on 2006, before releasing, it is prepared almost ten years (not 10 days!), it's aim for **solving the security issue within c and c++**
 
 * Rust has been supported by Mozilla Firefox since 2009 and upon its release in 2015
 
 * Almost everyone like Rust since 2016
+
+</v-clicks>
 
 ::right::
 
@@ -64,9 +72,9 @@ As I'm a archaeologist..., let's talk about history!
 
 ![](/img/growing-dev-want.jpg)
 
-</v-click>
-
 > 🔗 &nbsp;image source: https://yalantis.com/blog/rust-market-overview/
+
+</v-click>
 
 <!--
     Part 2: Rust history
@@ -124,11 +132,19 @@ layout: two-cols
 
 <br />
 
+<v-click>
+
 > 🔗 nbsp;image source: https://yalantis.com/blog/rust-market-overview/
+
+</v-click>
 
 ::right::
 
+<v-click>
+
 <img src="/img/who-use-rust.jpg" />
+
+</v-click>
 
 <!--
     Part 2.2: Who use Rust
@@ -155,11 +171,19 @@ It's good or not? Let user talk.
 
 </v-clicks>
 
+<v-click>
+
 > 🔗 source: [Rust survey](https://blog.rust-lang.org/2022/02/15/Rust-Survey-2021.html) among 9,354 Rust developers
+
+</v-click>
 
 ::right::
 
+<v-click>
+
 <img src="/img/rust-programming-benefits.png" style="object-fit: contain; height: 50vh;" />
+
+</v-click>
 
 <!-- 
     Part 2.3 Rust benefits

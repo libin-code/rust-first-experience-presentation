@@ -55,6 +55,12 @@ THE BEST FREE WAY (POSSIBLY) IS JOIN US!
 
 </v-click>
 
+<style>
+    li {
+        font-size: 15px !important;
+    }
+</style>
+
 <!--
     Part 4: How to learn Rust
 

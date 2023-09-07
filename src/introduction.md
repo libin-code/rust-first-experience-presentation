@@ -2,9 +2,13 @@
 
 <br/>
 
+<v-clicks>
+
 1. 🧑‍💻 &nbsp;Who am I
 2. 🎯 &nbsp;The goal of this workshop 
 3. 🗺️ &nbsp;The roadmap
+
+</v-clicks>
 
 <!--
     Part 0: Introduction
@@ -16,7 +20,7 @@ level: 2
 
 ## 🧑‍💻 &nbsp;Who am I
 
-<br/>
+<br />
 
 <v-clicks>
 
@@ -38,7 +42,7 @@ and most important:
 
 <v-click>
 
-<i style="font-size: 2.2rem; line-height: 1.6;">❤️  I'm crazy about Rust and think its the future!!! ❤️ </i>
+<i style="font-size: 1.8rem; line-height: 1.6; color: pink;">❤️  I'm crazy about Rust and think its the future!!! ❤️ </i>
 
 </v-click>
 
@@ -56,9 +60,13 @@ layout: intro
 
 <br/>
 
+<v-clicks>
+
 1. 🤔 &nbsp;Know what is Rust and its features
 2. 😎 &nbsp;Understand Rust some core concepts
 3. 🥰 &nbsp;Extremely like rust and approve Rust is the future
+
+</v-clicks>
 
 <!--
     Part 0.2: The goal of the workshop

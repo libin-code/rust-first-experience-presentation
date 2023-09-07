@@ -4,7 +4,13 @@ Finally, we are here
 
 <br />
 
-We all had known Rust is fast but <span style="font-size: 40px; color: red;">WHY????</span>
+We all had known Rust is fast 
+
+<v-click>
+
+but <span style="font-size: 40px; color: red;">WHY????</span>
+
+</v-click>
 
 <br />
 
@@ -31,38 +37,39 @@ level: 2
 layout: two-cols
 ---
 
-## 🍩 &nbsp;Ownership system
+## 😶‍🌫️ &nbsp;Zero Cost Abstractions - JS
+
+<div style="height: 80%; display: flex; flex-direction: column; justify-content: center;">
+
+```js{all|2|3|4|6|all}
+function main() {
+    let s = [1, 2, 3];
+    let t = s;
+    let u = t;
+
+    console.log(s, t, u);
+}
+```
+</div>
+
+::right::
 
 <br />
 
 Try to answer following questions:
 
-1. Where the variable `x` exist? (stack memory or heap memory?) 
-2. How much memory use of the `x`?
-3. When the `x` memory will be collection。
-
-::right::
-
-<div style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
-
 <br />
 
-```js{2|3-4|all}
-function main() {
-    let x = [1, 2, 3];
-    let y = x;
-    let z = y;
+<v-clicks>
 
-    console.log(x, y, z);
-}
-```
+1. Where the variable `s` exist? (stack memory or heap memory?) 
+2. How much memory use of the `s`?
+3. When the `s` memory will be collection。
 
-<br />
-
-</div>
+</v-clicks>
 
 <!-- 
-    Part 3.1: Ownership system
+    Part 3.1: JavaScript code is difficult to figure out what happened under the hook
 -->
 
 ---
@@ -70,7 +77,7 @@ level: 2
 layout: two-cols
 ---
 
-## 🍩 &nbsp;Rust version
+## 😶‍🌫️ &nbsp;Zero Cost Abstractions - Rust
 
 <div style="height: 70%; display: flex; flex-direction: column; justify-content: center;">
 
@@ -80,11 +87,12 @@ Lets's see the rust version:
 
 ```rs
 fu main() {
-    let x = vec![1, 2, 3];
-    let y = x;
-    let z = y;
+    let s: Vec<i8> = vec![1, 2, 3];
+    let t = s;
+    let u = t;
 
-    println!("{}, {}, {}", x, y, z);
+    println!("{:?}, {:?}, {:?}", s, t, u);
+    // <-- dealloc here
 }
 ```
 
@@ -92,6 +100,8 @@ fu main() {
 
 ::right::
 
+<br />
+<br />
 <br />
 
 <v-clicks>
@@ -103,7 +113,7 @@ fu main() {
 </v-clicks>
 
 <!--
-    Part 3.2: Explain why rust is the better choice!
+    Part 3.2: What is the zero cost abstractions and why it's fantastic!
 -->
 
 ---
@@ -139,11 +149,104 @@ But, here appears the third camp 🎉:
 -->
 
 ---
+level: 2 
+layout: two-cols 
+---
+
+## Python memory management
+
+<img src="/img/py-represent.jpg" style="height: 70%; margin: 22px; object-fit: contain;" />
+
+::right::
+
+<img src="/img/py-assigning.jpg" style="height: 70%; margin-bottom: 12px; object-fit: contain;" />
+
+> 🔗 img sourcc: 《Programming Rust 2nd》p86-87
+
+<!-- 
+    Part 3.4: Memory management for py
+
+    explain what's python handle heap memory
+-->
+
+---
+level: 2 
+layout: two-cols 
+---
+
+## C memory management
+
+<img src="/img/c-represent.jpg" style="height: 70%; margin: 22px; object-fit: contain;" />
+
+::right::
+
+<img src="/img/c-assigning.jpg" style="height: 70%; margin-bottom: 12px; object-fit: contain;" />
+
+> 🔗 img sourcc: 《Programming Rust 2nd》p88
+
+<!-- 
+    Part 3.5: Memory management for c
+
+    explain what's c handle heap memory
+-->
+
+---
+level: 2 
+layout: two-cols 
+---
+
+## Rust memory management
+
+<img src="/img/rs-represent.jpg" style="height: 70%; margin: 22px; object-fit: contain;" />
+
+::right::
+
+<img src="/img/rs-assigning.jpg" style="height: 70%; margin-bottom: 12px; object-fit: contain;" />
+
+> 🔗 img sourcc: 《Programming Rust 2nd》p88
+
+<!-- 
+    Part 3.6: Memory management for Rust 
+
+    explain what's rust handle heap memory
+-->
+
+---
 level: 2
 layout: intro
 ---
 
-## 🔐 &nbsp;Rust is also safe and easy to use
+## 🤔 Why Rust design is better?
+
+<br />
+
+1. Prevent the `use after free` error in C
+2. Prevent loop reference in JS or Python
+
+<br />
+
+<v-click>
+
+In other words:
+
+</v-click>
+
+<v-click>
+
+Rust is a <span style="color: red; font-size: 24px; font-weight: bolder;">MEMORY SAFE</span> language!
+
+</v-click>
+
+<!--
+    Part 3.7: Rust is a memory safe language
+-->
+
+---
+level: 2
+layout: intro
+---
+
+## 🔐 &nbsp;Rust is also safe in dev and easy to use
 
 <br />
 
@@ -153,10 +256,10 @@ Let's code a simple program:
 
 1. create a enmu type `Fruits`;
 2. log fruit name by inputing argument;
-3. use `switch` / `match` keyword by default;
+3. use `if-else` statement by default;
 
 <!--
-    Part 3.4: Rust is safe and friendly
+    Part 3.8: Rust is safe and friendly
 
     Rust:
 
@@ -200,5 +303,5 @@ layout: two-cols
 </div>
 
 <!--
-    Part 3.5: Other topic for Rust
+    Part 3.9: Other topic for Rust
 -->
