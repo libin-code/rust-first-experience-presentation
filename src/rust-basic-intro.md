@@ -134,7 +134,7 @@ layout: two-cols
 
 <v-click>
 
-> 🔗 nbsp;image source: https://yalantis.com/blog/rust-market-overview/
+> 🔗 &nbsp;image source: https://yalantis.com/blog/rust-market-overview/
 
 </v-click>
 

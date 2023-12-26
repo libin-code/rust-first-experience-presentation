@@ -4,7 +4,7 @@ Finally, we are here
 
 <br />
 
-We all had known Rust is fast 
+We all had known Rust is fast and safe
 
 <v-click>
 
@@ -256,7 +256,7 @@ Let's code a simple program:
 
 1. create a enmu type `Fruits`;
 2. log fruit name by inputing argument;
-3. use `switch` statement by default;
+3. use `match` statement by default;
 
 <!--
     Part 3.8: Rust is safe and friendly
