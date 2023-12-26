@@ -51,7 +51,18 @@ layout: two-cols
 
 THE BEST FREE WAY (POSSIBLY) IS JOIN US!
 
-![](/img/qr-code.png)
+<div style="position: relative; left: -100px; display: flex; padding: 32px 0; justify-content: space-between;">
+    <figure style="width: 200px; margin-right: 32px; margin-left: 102px;">
+        <img src="/img/contact-me.jpg" />
+        <figcaption style="margin-top: 12px; font-size: 12px; text-align: center;">my personal wechat</figcaption>
+    </figure>
+    <figure style="width: 200px;">
+        <img src="/img/we-chat.jpg" width=350 />
+        <figcaption style="margin-top: 12px; font-size: 12px; text-align: center;">my wechat column</figcaption>
+    </figure>
+</div>
+
+📧 &nbsp;mailto: kongtang.lb@alibaba-inc.com
 
 </v-click>
 

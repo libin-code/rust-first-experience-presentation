@@ -37,7 +37,7 @@ level: 2
 layout: two-cols
 ---
 
-## 😶‍🌫️ &nbsp;Strong Type & Ownership - JS
+## 💪&nbsp;Strong Type & Ownership - JS
 
 <div style="height: 80%; display: flex; flex-direction: column; justify-content: center;">
 
@@ -77,7 +77,7 @@ level: 2
 layout: two-cols
 ---
 
-## 😶‍🌫️ &nbsp;Strong Type & Ownership - Rust
+## 💪&nbsp;Strong Type & Ownership - Rust
 
 <div style="height: 70%; display: flex; flex-direction: column; justify-content: center;">
 
@@ -273,6 +273,48 @@ Let's code a simple program:
     3. run `npm install -D typescript ts-node` install dev dependencies
     4. run `npx tsc --init` generate tsconfig.json file
     5. run `vi index.ts` to coding 
+
+    Rust code:
+
+    ```rs
+    enum Fruits {
+        Apple,
+        Pinapple,
+        Banana,
+    }
+    
+    fn main() {
+        say_fruit(Fruits::Banana);
+    }
+    
+    fn say_fruit(fruit: Fruits) {
+        println!("current fruit is: ");
+        match fruit {
+            Fruits::Apple => println!("Apple"),
+        }
+    }
+    ```
+
+    TS code:
+
+    ```ts
+    enum Fruits {
+        Apple,
+        Pinapple,
+        Banana,
+    }
+    
+    function sayFruit(fruit: Fruits) {
+        console.log("current fruit is: ")
+        switch (fruit) {
+            case Fruits.Apple:
+                console.log("apple")
+                break;
+        }
+    }
+    
+    sayFruit(Fruits.Pinapple)
+    ```
 -->
 
 ---
