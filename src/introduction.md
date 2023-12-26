@@ -6,7 +6,7 @@
 
 1. 🧑‍💻 &nbsp;Who am I
 2. 🎯 &nbsp;The goal of this workshop 
-3. 🗺️ &nbsp;The roadmap
+3. 🗺️ &nbsp;The outline 
 
 </v-clicks>
 
@@ -24,9 +24,11 @@ level: 2
 
 <v-clicks>
 
-* 👨‍💻 &nbsp;I'm a javascript developer
-* 📚 &nbsp;I'm learning Rust now
-* 🤩 &nbsp;I'm going to use Rust in work
+* 👨‍💻 &nbsp;I'm a web developer (FE -> full-stack -> DevOps)
+* 📚 &nbsp;I'm learning Rust now and using it at work
+* ✍️  &nbsp;I'm an columnist
+    * 🔗 公众号：《李斌的技术博客》
+    * 🔗 [medium](https://medium.com/@libinfs1)
 
 </v-clicks>
 
@@ -63,7 +65,7 @@ layout: intro
 <v-clicks>
 
 1. 🤔 &nbsp;Know what is Rust and its features
-2. 😎 &nbsp;Understand Rust some core concepts
+2. 😎 &nbsp;Understand Rust core concepts -- **Ownership**
 3. 🥰 &nbsp;Extremely like rust and approve Rust is the future
 
 </v-clicks>

@@ -37,7 +37,7 @@ level: 2
 layout: two-cols
 ---
 
-## 😶‍🌫️ &nbsp;Zero Cost Abstractions - JS
+## 😶‍🌫️ &nbsp;Strong Type & Ownership - JS
 
 <div style="height: 80%; display: flex; flex-direction: column; justify-content: center;">
 
@@ -77,7 +77,7 @@ level: 2
 layout: two-cols
 ---
 
-## 😶‍🌫️ &nbsp;Zero Cost Abstractions - Rust
+## 😶‍🌫️ &nbsp;Strong Type & Ownership - Rust
 
 <div style="height: 70%; display: flex; flex-direction: column; justify-content: center;">
 
@@ -113,7 +113,7 @@ fu main() {
 </v-clicks>
 
 <!--
-    Part 3.2: What is the zero cost abstractions and why it's fantastic!
+    Part 3.2: Why Rust is fantastic!
 -->
 
 ---
@@ -220,7 +220,7 @@ layout: intro
 
 <br />
 
-1. Prevent the `use after free` error in C
+1. Prevent the **use after free** error in C
 2. Prevent loop reference in JS or Python
 
 <br />
@@ -246,7 +246,7 @@ level: 2
 layout: intro
 ---
 
-## 🔐 &nbsp;Rust is also safe in dev and easy to use
+## 🔐 &nbsp;Rust is not only safe but also a friendly language
 
 <br />
 
@@ -256,7 +256,7 @@ Let's code a simple program:
 
 1. create a enmu type `Fruits`;
 2. log fruit name by inputing argument;
-3. use `if-else` statement by default;
+3. use `switch` statement by default;
 
 <!--
     Part 3.8: Rust is safe and friendly
