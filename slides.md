@@ -10,6 +10,10 @@ transition: fade-out
 
 Of course, Rust is the future!
 
+<br />
+
+📦 &nbsp;slides: https://github.com/libin-code/rust-first-experience-presentation
+
 <!--
     Welcome everyone's attended. 
 -->
