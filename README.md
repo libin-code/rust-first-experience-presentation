@@ -9,7 +9,7 @@ This repo is a presentation for introducing Rust language. It made by the powerf
 > Slidev requires Node.js >=18.0
 
 ```
-npm install -g @slidev/cli
+npm install -g @slidev/cli@0.42.11
 ```
 
 more information see: https://sli.dev
